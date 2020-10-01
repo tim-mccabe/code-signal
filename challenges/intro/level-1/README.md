@@ -27,7 +27,7 @@ add(param1, param2) = 3.
 
   The sum of the two inputs.
 
- ### Century from Year
+ ## Century from Year
 
 Given a year, return the century it is in. The first century spans from the year 1 up to and including the year 100, 
 the second - from the year 101 up to and including the year 200, etc.
@@ -53,7 +53,7 @@ the second - from the year 101 up to and including the year 200, etc.
 
   The number of the century the year is in.
 
-### Check if Palindrome
+## Check if Palindrome
 
  Given the string, check if it is a palindrome.
 
