@@ -1,6 +1,6 @@
 # Overview of all functions 
 
-### Add
+## Add
 
 Write a function that returns the sum of two numbers.
 
