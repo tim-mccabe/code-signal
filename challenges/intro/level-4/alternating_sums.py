@@ -14,3 +14,8 @@ def alternatingSums(a):
     # create a new list of output which are the sums of team_1 and team_2
     output = [sum(team_1), sum(team_2)]
     return output
+
+# a much simpler and more advanced solution
+
+def alternatingSums_1(a):
+    return [sum(a[::2]), sum(a[1::2])]
