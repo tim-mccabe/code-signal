@@ -125,3 +125,29 @@ Guaranteed constraints:
 
 The minimal number of moves needed to obtain a strictly increasing sequence from inputArray.
 It's guaranteed that for the given test cases the answer always fits signed 32-bit integer type.
+
+##  Palindrome Rearranging
+
+Given a string, find out if its characters can be rearranged to form a palindrome.
+
+#### Example
+
+For inputString = "aabb", the output should be
+palindromeRearranging(inputString) = true.
+
+We can rearrange "aabb" to make "abba", which is a palindrome.
+
+#### Input/Output
+
+* **[execution time limit] 4 seconds (py3)**
+
+* **[input] string inputString**
+
+A string consisting of lowercase English letters.
+
+Guaranteed constraints:
+1 ≤ inputString.length ≤ 50.
+
+* **[output] boolean**
+
+true if the characters of the inputString can be rearranged to form a palindrome, false otherwise.
