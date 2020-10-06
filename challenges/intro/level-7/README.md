@@ -11,7 +11,7 @@ Given n and firstNumber, find the number which is written in the radially opposi
 For n = 10 and firstNumber = 2, the output should be
 circleOfNumbers(n, firstNumber) = 7.
 
-![circle](images/circle_or_numbers.png)
+![circle_of_numbers](images/circle_of_numbers.png)
 
 #### Input/Output
 
