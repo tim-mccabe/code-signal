@@ -23,6 +23,7 @@ growingPlant(upSpeed, downSpeed, desiredHeight) = 10.
 | 8 | 730 | 720 |
 | 9 | 820 | 810 |
 | 10 | 910 | 900 |
+
 The plant first reaches a height of 910 on day 10.
 
 #### Input/Output
@@ -146,3 +147,46 @@ Guaranteed constraints:
 5 ≤ n ≤ 109.
 
 * **[output] integer**
+
+## Bishop and Pawn
+
+Given the positions of a white bishop and a black pawn on the standard chess board, determine whether the bishop can capture the pawn in one move.
+
+The bishop has no restrictions in distance for each move, but is limited to diagonal movement. Check out the example below to see how it can move:
+![chess_1](images/chess_1.png)
+
+#### Example
+
+* For bishop = "a1" and pawn = "c3", the output should be
+  bishopAndPawn(bishop, pawn) = true.
+
+![chess_2](images/chess_2.png)
+
+* For bishop = "h1" and pawn = "h3", the output should be
+  bishopAndPawn(bishop, pawn) = false.
+
+![chess_3](images/chess_3.png)
+
+#### Input/Output
+
+* **[input] string bishop**
+
+    Coordinates of the white bishop in the chess notation.
+
+    Guaranteed constraints:
+    bishop.length = 2,
+    'a' ≤ bishop[0] ≤ 'h',
+    1 ≤ bishop[1] ≤ 8.
+
+* **[input] string pawn**
+
+    Coordinates of the black pawn in the same notation.
+
+    Guaranteed constraints:
+    pawn.length = 2,
+    'a' ≤ pawn[0] ≤ 'h',
+    1 ≤ pawn[1] ≤ 8.
+
+* **[output] boolean**
+
+true if the bishop can capture the pawn, false otherwise.
