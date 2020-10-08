@@ -54,19 +54,19 @@ Given a position of a knight on the standard chessboard, find the number of diff
 
 The knight can move to a square that is two squares horizontally and one square vertically, or two squares vertically and one square horizontally away from it. The complete move therefore looks like the letter L. Check out the image below to see all valid moves for a knight piece that is placed on one of the central squares.
 
-![chess_1](images/chess_1.png)
+![chess_1](images/chess_1.jpg)
 
 #### Example
 
 * For cell = "a1", the output should be
   chessKnight(cell) = 2.
 
-  ![chess_2](images/chess_2.png)
+  ![chess_2](images/chess_2.jpg)
 
 * For cell = "c2", the output should be
   chessKnight(cell) = 6.
 
-  ![chess_3](images/chess_3.png)
+  ![chess_3](images/chess_3.jpg)
 
 #### Input/Output
 
