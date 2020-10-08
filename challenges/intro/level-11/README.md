@@ -1,5 +1,7 @@
 # Overview of all Functions
 
+## Is Digit
+
 Determine if the given character is a digit or not.
 
 #### Example
