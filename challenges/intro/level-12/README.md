@@ -11,12 +11,12 @@ longestWord(text) = "steady".
 
 #### Input/Output
 
-* [input] string text
+* **[input] string text**
 
 Guaranteed constraints:
 4 ≤ text.length ≤ 50.
 
-* [output] string
+* **[output] string**
 
 The longest word from text. It's guaranteed that there is a unique output.
 
@@ -34,11 +34,11 @@ Check if the given string is a correct time representation of the 24-hour clock.
   validTime(time) = false.
 #### Input/Output
 
-* [input] string time
+* **[input] string time**
 
 A string representing time in HH:MM format. It is guaranteed that the first two characters, as well as the last two characters, are digits.
 
-* [output] boolean
+* **[output] boolean**
 
 true if the given representation is correct, false otherwise.
 
@@ -55,12 +55,12 @@ sumUpNumbers(inputString) = 14.
 
 #### Input/Output
 
-* [input] string inputString
+* **[input] string inputString**
 
 Guaranteed constraints:
 0 ≤ inputString.length ≤ 105.
 
-* [output] integer
+* **[output] integer**
 
 ## Different Squares
 
@@ -94,14 +94,14 @@ Here are all 6 different 2 × 2 squares:
   2 1
 #### Input/Output
 
-* [input] array.array.integer matrix
+* **[input] array.array.integer matrix**
 
 Guaranteed constraints:
 1 ≤ matrix.length ≤ 100,
 1 ≤ matrix[i].length ≤ 100,
 0 ≤ matrix[i][j] ≤ 9.
 
-* [output] integer
+* **[output] integer**
 
 The number of different 2 × 2 squares in matrix.
 
@@ -117,12 +117,12 @@ Given an integer product, find the smallest positive (i.e. greater than 0) integ
   digitsProduct(product) = -1.
 #### Input/Output
 
-* [input] integer product
+* **[input] integer product**
 
 Guaranteed constraints:
 0 ≤ product ≤ 600.
 
-* [output] integer
+* **[output] integer**
 
 ## File Naming
 
@@ -137,13 +137,13 @@ fileNaming(names) = ["doc", "doc(1)", "image", "doc(1)(1)", "doc(2)"].
 
 #### Input/Output
 
-* [input] array.string names
+* **[input] array.string names**
 
 Guaranteed constraints:
 5 ≤ names.length ≤ 1000,
 1 ≤ names[i].length ≤ 15.
 
-* [output] array.string
+* **[output] array.string**
 
 ## Message From Binary Code
 
@@ -161,14 +161,14 @@ Other letters can be obtained in the same manner.
 
 #### Input/Output
 
-* [input] string code
+* **[input] string code**
 
 A string, the encrypted message consisting of characters '0' and '1'.
 
 Guaranteed constraints:
 0 < code.length < 800.
 
-* [output] string
+* **[output] string**
 
 The decrypted message.
 
@@ -185,14 +185,14 @@ spiralNumbers(n) = [[1, 2, 3],
                     [7, 6, 5]]
 #### Input/Output
 
-* [input] integer n
+* **[input] integer n**
 
 Matrix size, a positive integer.
 
 Guaranteed constraints:
 3 ≤ n ≤ 100.
 
-* [output] array.array.integer
+* **[output] array.array.integer**
 
 ## Sudoku
 
@@ -237,7 +237,7 @@ These examples are represented on the image below.
 
 #### Input/Output
 
-* [input] array.array.integer grid
+* **[input] array.array.integer grid**
 
 A matrix representing 9 × 9 grid already filled with numbers from 1 to 9.
 
@@ -246,6 +246,6 @@ grid.length = 9,
 grid[i].length = 9,
 1 ≤ grid[i][j] ≤ 9.
 
-* [output] boolean
+* **[output] boolean**
 
 true if the given grid represents a correct solution to Sudoku, false otherwise.

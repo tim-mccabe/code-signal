@@ -58,32 +58,32 @@ Note that there are only two items and you can't bring more than one item of eac
 
 #### Input/Output
 
-* [input] integer value1
+* **[input] integer value1**
 
 Guaranteed constraints:
 2 ≤ value1 ≤ 20.
 
-* [input] integer weight1
+* **[input] integer weight1**
 
 Guaranteed constraints:
 2 ≤ weight1 ≤ 10.
 
-* [input] integer value2
+* **[input] integer value2**
 
 Guaranteed constraints:
 2 ≤ value2 ≤ 20.
 
-* [input] integer weight2
+* **[input] integer weight2**
 
 Guaranteed constraints:
 2 ≤ weight2 ≤ 10.
 
-* [input] integer maxW
+* **[input] integer maxW**
 
 Guaranteed constraints:
 1 ≤ maxW ≤ 20.
 
-* [output] integer
+* **[output] integer**
 
 ## Extra Number
 
@@ -98,22 +98,22 @@ The two equal numbers are a and c. The third number (b) equals 7, which is the a
 
 #### Input/Output
 
-* [input] integer a
+* **[input] integer a**
 
 Guaranteed constraints:
 1 ≤ a ≤ 109.
 
-* [input] integer b
+* **[input] integer b**
 
 Guaranteed constraints:
 1 ≤ b ≤ 109.
 
-* [input] integer c
+* **[input] integer c**
 
 Guaranteed constraints:
 1 ≤ c ≤ 109.
 
-* [output] integer
+* **[output] integer**
 
 ## Is Infinite Process?
 
@@ -132,17 +132,17 @@ Assume that the program is executed on a virtual machine which can store arbitra
   isInfiniteProcess(a, b) = true.
 #### Input/Output
 
-* [input] integer a
+* **[input] integer a**
 
 Guaranteed constraints:
 0 ≤ a ≤ 20.
 
-* [input] integer b
+* **[input] integer b**
 
 Guaranteed constraints:
 0 ≤ b ≤ 20.
 
-* [output] boolean
+* **[output] boolean**
 
 true if the pseudocode will never stop, false otherwise.
 
@@ -173,22 +173,22 @@ Consider an arithmetic expression of the form a#b=c. Check whether it is possibl
 
 #### Input/Output
 
-* [input] integer a
+* **[input] integer a**
 
 Guaranteed constraints:
 1 ≤ a ≤ 20.
 
-* [input] integer b
+* **[input] integer b**
 
 Guaranteed constraints:
 1 ≤ b ≤ 20.
 
-* [input] integer c
+* **[input] integer c**
 
 Guaranteed constraints:
 0 ≤ c ≤ 20.
 
-* [output] boolean
+* **[output] boolean**
 
 true if the desired replacement is possible, false otherwise.
 
@@ -217,21 +217,21 @@ Given two integers score1 and score2, your task is to determine if it is possibl
 
 #### Input/Output
 
-* [input] integer score1
+* **[input] integer score1**
 
 Number of games won by the 1st player, non-negative integer.
 
 Guaranteed constraints:
 0 ≤ score1 ≤ 10.
 
-* [input] integer score2
+* **[input] integer score2**
 
 Number of games won by the 2nd player, non-negative integer.
 
 Guaranteed constraints:
 0 ≤ score2 ≤ 10.
 
-* [output] boolean
+* **[output] boolean**
 
 true if score1 : score2 represents a possible score for an ended set, false otherwise.
 
@@ -259,13 +259,13 @@ A person contradicts Mary's belief if one of the following statements is true:
 
 #### Input/Output
 
-* [input] boolean young
+* **[input] boolean young**
 
-* [input] boolean beautiful
+* **[input] boolean beautiful**
 
-* [input] boolean loved
+* **[input] boolean loved**
 
-* [output] boolean
+* **[output] boolean**
 
 true if the person contradicts Mary's belief, false otherwise.
 
@@ -286,13 +286,13 @@ There are 30 days in April, June, September and November, so the next months to 
 
 #### Input/Output
 
-* [input] integer lastNumberOfDays
+* **[input] integer lastNumberOfDays**
 
 A positive integer, the number of days for which the card was extended the last time.
 
 Guaranteed constraints:
 lastNumberOfDays = 28 or lastNumberOfDays = 30 or lastNumberOfDays = 31.
 
-* [output] array.integer
+* **[output] array.integer**
 
 An array of positive integers, the possible number of days for which you will extend your pass. The elements of the array can only be equal to 28, 30 or 31 and must be sorted in increasing order.

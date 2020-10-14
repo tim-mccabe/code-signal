@@ -131,4 +131,3 @@ Example
 * **[output] boolean**
 
   true if both cells have the same color, false otherwise.
-
