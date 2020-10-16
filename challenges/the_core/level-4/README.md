@@ -193,3 +193,68 @@ Guaranteed constraints:
 * **[output] integer**
 
 The difference between the two types of apples.
+
+## Increase Number Roundness
+
+Define an integer's *roundness* as the number of trailing zeroes in it.
+
+Given an integer n, check if it's possible to increase n's roundness by swapping some pair of its digits.
+
+#### Example
+
+* For n = 902200100, the output should be
+  increaseNumberRoundness(n) = true.
+
+  One of the possible ways to increase *roundness* of n is to swap digit 1 with digit 0 preceding it: *roundness* of 902201000 is 3, and *roundness* of n is 2.
+
+  For instance, one may swap the leftmost 0 with 1.
+
+* For n = 11000, the output should be
+  increaseNumberRoundness(n) = false.
+
+  *Roundness* of n is 3, and there is no way to increase it.
+
+#### Input/Output
+
+* **[input] integer n**
+
+A positive integer.
+
+Guaranteed constraints:
+100 ≤ n ≤ 109.
+
+* **[output] boolean**
+
+true if it's possible to increase n's roundness, false otherwise.
+
+## Rounders
+
+We want to turn the given integer into a number that has only one non-zero digit using a tail rounding approach. This means that at each step we take the last non 0 digit of the number and round it to 0 or to 10. If it's less than 5 we round it to 0 if it's larger than or equal to 5 we round it to 10 (rounding to 10 means increasing the next significant digit by 1). The process stops immediately once there is only one non-zero digit left.
+
+#### Example
+
+* For n = 15, the output should be
+  rounders(n) = 20;
+
+* For n = 1234, the output should be
+  rounders(n) = 1000.
+
+  1234 -> 1230 -> 1200 -> 1000.
+
+* For n = 1445, the output should be
+  rounders(n) = 2000.
+
+  1445 -> 1450 -> 1500 -> 2000.
+
+#### Input/Output
+
+* **[input] integer n**
+
+A positive integer.
+
+Guaranteed constraints:
+1 ≤ value ≤ 108.
+
+* **[output] integer**
+
+The rounded number.
