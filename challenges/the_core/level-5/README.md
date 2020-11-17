@@ -48,3 +48,51 @@ Guaranteed constraints:
 0 ≤ substitutionElem ≤ 109.
 
 * **[output] array.integer**
+
+## First Reverse Try
+
+Reversing an array can be a tough task, especially for a novice programmer. Mary just started coding, so she would like to start with something basic at first. Instead of reversing the array entirely, she wants to swap just its first and last elements.
+
+Given an array arr, swap its first and last elements and return the resulting array.
+
+#### Example
+
+For arr = [1, 2, 3, 4, 5], the output should be
+firstReverseTry(arr) = [5, 2, 3, 4, 1].
+
+#### Input/Output
+
+* **[input] array.integer arr**
+
+Guaranteed constraints:
+0 ≤ arr.length ≤ 50,
+-104 ≤ arr[i] ≤ 104.
+
+* **[output] array.integer**
+
+Array arr with its first and its last elements swapped.
+
+## Concatenate Arrays
+
+Given two arrays of integers `a` and `b`, obtain the array formed by the elements of `a` followed by the elements of `b`.
+
+#### Example
+
+For `a = [2, 2, 1]` and `b = [10, 11]`, the output should be
+`concatenateArrays(a, b) = [2, 2, 1, 10, 11]`.
+
+#### Input/Output
+
+* **[input] array.integer a**
+
+Guaranteed constraints:
+1 ≤ a.length ≤ 10,
+1 ≤ a[i] ≤ 15.
+
+* **[input] array.integer b**
+
+Guaranteed constraints:
+0 ≤ b.length ≤ 10,
+1 ≤ b[i] ≤ 15.
+
+* **[output] array.integer**
