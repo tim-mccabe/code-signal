@@ -96,3 +96,70 @@ Guaranteed constraints:
 1 ≤ b[i] ≤ 15.
 
 * **[output] array.integer**
+
+## Remove Array Part
+
+Remove a part of a given array between given 0-based indexes `l` and `r` (inclusive).
+
+#### Example
+
+For `inputArray = [2, 3, 2, 3, 4, 5]`, `l = 2`, and `r = 4`, the output should be
+`removeArrayPart(inputArray, l, r) = [2, 3, 5]`.
+
+#### Input/Output
+
+* **[input] array.integer inputArray**
+
+Guaranteed constraints:
+2 ≤ inputArray.length ≤ 104,
+-105 ≤ inputArray[i] ≤ 105.
+
+* **[input] integer l**
+
+Left index of the part to be removed (0-based).
+
+Guaranteed constraints:
+0 ≤ l ≤ r.
+
+* **[input] integer r**
+
+Right index of the part to be removed (0-based).
+
+Guaranteed constraints:
+l ≤ r < inputArray.length.
+
+* **[output] array.integer**
+
+## Is Smooth?
+
+We define the *middle* of the array `arr` as follows:
+
+* if `arr` contains an odd number of elements, its *middle* is the element whose index number is the same when counting from the beginning of the array and from its end;
+* if `arr` contains an even number of elements, its *middle* is the sum of the two elements whose index numbers when counting from the beginning and from the end of the array differ by one.
+An array is called *smooth* if its first and its last elements are equal to one another and to the *middle*. Given an array `arr`, determine if it is *smooth* or not.
+
+#### Example
+
+* For `arr = [7, 2, 2, 5, 10, 7]`, the output should be
+  `isSmooth(arr) = true`.
+
+  The first and the last elements of `arr` are equal to `7`, and its *middle* also equals `2 + 5 = 7`. Thus, the array is *smooth* and the output is `true`.
+
+* For `arr = [-5, -5, 10]`, the output should be
+  `isSmooth(arr) = false`.
+
+  The first and *middle* elements are equal to `-5`, but the last element equals `10`. Thus, `arr` is not *smooth* and the output is `false`.
+
+#### Input/Output
+
+* **[input] array.integer arr**
+
+The given array.
+
+Guaranteed constraints:
+2 ≤ arr.length ≤ 105,
+-109 ≤ arr[i] ≤ 109.
+
+* **[output] boolean**
+
+`true` if `arr` is *smooth*, `false` otherwise.
