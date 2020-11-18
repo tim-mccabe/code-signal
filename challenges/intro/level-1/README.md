@@ -6,12 +6,10 @@ Write a function that returns the sum of two numbers.
 
 #### Example
 
-For param1 = 1 and param2 = 2, the output should be
-add(param1, param2) = 3.
+For `param1 = 1` and `param2 = 2`, the output should be
+`add(param1, param2) = 3`.
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] integer param1**
 
@@ -34,13 +32,11 @@ the second - from the year 101 up to and including the year 200, etc.
 
 #### Example
 
-* For year = 1905, the output should be
-  centuryFromYear(year) = 20;
-* For year = 1700, the output should be
-  centuryFromYear(year) = 17.
+* For `year = 1905`, the output should be
+  `centuryFromYear(year) = 20`;
+* For `year = 1700`, the output should be
+  `centuryFromYear(year) = 17`.
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] integer year**
 
@@ -59,15 +55,13 @@ the second - from the year 101 up to and including the year 200, etc.
 
 #### Example
 
-* For inputString = "aabaa", the output should be
-  checkPalindrome(inputString) = true;
-* For inputString = "abac", the output should be
-  checkPalindrome(inputString) = false;
-* For inputString = "a", the output should be
-  checkPalindrome(inputString) = true.
+* For `inputString = "aabaa"`, the output should be
+  `checkPalindrome(inputString) = true`;
+* For `inputString = "abac"`, the output should be
+  `checkPalindrome(inputString) = false`;
+* For `inputString = "a"`, the output should be
+  `checkPalindrome(inputString) = true`.
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] string inputString**
 
@@ -78,4 +72,4 @@ the second - from the year 101 up to and including the year 200, etc.
 
 * **[output] boolean**
 
-  true if inputString is a palindrome, false otherwise.
+  `true` if `inputString` is a palindrome, `false` otherwise.
