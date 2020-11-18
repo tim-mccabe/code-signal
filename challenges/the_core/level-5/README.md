@@ -2,12 +2,12 @@
 
 ## Create Array
 
-Given an integer size, return array of length size filled with 1s.
+Given an integer `size`, return array of length `size` filled with 1s.
 
 #### Example
 
-For size = 4, the output should be
-createArray(size) = [1, 1, 1, 1].
+For `size = 4`, the output should be
+`createArray(size) = [1, 1, 1, 1]`.
 
 #### Input/Output
 
@@ -22,12 +22,12 @@ Guaranteed constraints:
 
 ## Arraye Replace
 
-Given an array of integers, replace all the occurrences of elemToReplace with substitutionElem.
+Given an array of integers, replace all the occurrences of `elemToReplace` with `substitutionElem`.
 
 #### Example
 
-For inputArray = [1, 2, 1], elemToReplace = 1, and substitutionElem = 3, the output should be
-arrayReplace(inputArray, elemToReplace, substitutionElem) = [3, 2, 3].
+For `inputArray = [1, 2, 1]`, `elemToReplace = 1`, and `substitutionElem = 3`, the output should be
+`arrayReplace(inputArray, elemToReplace, substitutionElem) = [3, 2, 3]`.
 
 #### Input/Output
 
@@ -53,12 +53,12 @@ Guaranteed constraints:
 
 Reversing an array can be a tough task, especially for a novice programmer. Mary just started coding, so she would like to start with something basic at first. Instead of reversing the array entirely, she wants to swap just its first and last elements.
 
-Given an array arr, swap its first and last elements and return the resulting array.
+Given an array `arr`, swap its first and last elements and return the resulting array.
 
 #### Example
 
-For arr = [1, 2, 3, 4, 5], the output should be
-firstReverseTry(arr) = [5, 2, 3, 4, 1].
+For `arr = [1, 2, 3, 4, 5]`, the output should be
+`firstReverseTry(arr) = [5, 2, 3, 4, 1]`.
 
 #### Input/Output
 
@@ -70,7 +70,7 @@ Guaranteed constraints:
 
 * **[output] array.integer**
 
-Array arr with its first and its last elements swapped.
+Array `arr` with its first and its last elements swapped.
 
 ## Concatenate Arrays
 
