@@ -28,15 +28,19 @@ Given a rectangular matrix of characters, add a border of asterisks(`*`) to it.
 #### Example
 
 For
-`
-picture = ["abc",
-           "ded"]`
+
+picture = 
+
+           ["abc",
+           "ded"]
 the output should be
-`
-addBorder(picture) = ["*****",
+
+addBorder(picture) = 
+
+                      ["*****",
                       "*abc*",
                       "*ded*",
-                      "*****"]`
+                      "*****"]
 #### Input/Output
 
 * **[input] array.string picture**

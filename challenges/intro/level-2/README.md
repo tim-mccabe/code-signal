@@ -122,9 +122,11 @@ of all rooms that are suitable for the CodeBots (ie: add up all the values that 
 
 * For
 
-  `matrix = [[0, 1, 1, 2], 
+  matrix = 
+  
+            [[0, 1, 1, 2], 
             [0, 5, 0, 0], 
-            [2, 0, 3, 3]]`
+            [2, 0, 3, 3]]
   the output should be
   `matrixElementsSum(matrix) = 9`.
 
@@ -134,9 +136,11 @@ of all rooms that are suitable for the CodeBots (ie: add up all the values that 
 
 * For
 
-  `matrix = [[1, 1, 1, 0], 
+  matrix = 
+  
+            [[1, 1, 1, 0], 
             [0, 5, 0, 1], 
-            [2, 1, 3, 10]]`
+            [2, 1, 3, 10]]
   the output should be
   `matrixElementsSum(matrix) = 9`.
 

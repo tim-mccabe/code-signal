@@ -148,19 +148,23 @@ Return the blurred image as an integer, with the fractions rounded down.
 
 For
 
-`image = [[1, 1, 1], 
+image = 
+
+         [[1, 1, 1], 
          [1, 7, 1], 
-         [1, 1, 1]]`
+         [1, 1, 1]]
 the output should be `boxBlur(image) = [[1]]`.
 
 To get the value of the middle pixel in the input `3 × 3` square: `(1 + 1 + 1 + 1 + 7 + 1 + 1 + 1 + 1) = 15 / 9 = 1.66666 = 1`. The border pixels are cropped from the final result.
 
 For
 
-`image = [[7, 4, 0, 1], 
+image = 
+
+         [[7, 4, 0, 1], 
          [5, 6, 2, 2], 
          [6, 10, 7, 8], 
-         [1, 4, 2, 0]]`
+         [1, 4, 2, 0]]
 the output should be
 
 `boxBlur(image) = [[5, 4], 
@@ -190,14 +194,18 @@ In the popular **Minesweeper** game you have a board with some mines and those c
 
 For
 
-`matrix = [[true, false, false],
+matrix = 
+
+          [[true, false, false],
           [false, true, false],
-          [false, false, false]]`
+          [false, false, false]]
 the output should be
 
-`minesweeper(matrix) = [[1, 2, 1],
+minesweeper(matrix) = 
+
+                       [[1, 2, 1],
                        [2, 1, 1],
-                       [1, 1, 1]]`
+                       [1, 1, 1]]
 Check out the image below for better understanding:
 
 ![minesweeper](images/minesweeper.png)

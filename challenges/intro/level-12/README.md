@@ -70,11 +70,13 @@ Given a rectangular matrix containing only digits, calculate the number of diffe
 
 For
 
-`matrix = [[1, 2, 1],
+matrix = 
+
+          [[1, 2, 1],
           [2, 2, 2],
           [2, 2, 2],
           [1, 2, 3],
-          [2, 2, 1]]`
+          [2, 2, 1]]
 the output should be
 `differentSquares(matrix) = 6`.
 
@@ -180,9 +182,11 @@ Construct a square matrix with a size `N × N` containing integers from `1` to `
 
 For `n = 3`, the output should be
 
-`spiralNumbers(n) = [[1, 2, 3],
+spiralNumbers(n) = 
+
+                    [[1, 2, 3],
                     [8, 9, 4],
-                    [7, 6, 5]]`
+                    [7, 6, 5]]
 #### Input/Output
 
 * **[input] integer n**
@@ -204,7 +208,9 @@ This algorithm should check if the given grid of numbers represents a correct so
 
 * For
 
-`grid = [[1, 3, 2, 5, 4, 6, 9, 8, 7],
+grid = 
+
+        [[1, 3, 2, 5, 4, 6, 9, 8, 7],
         [4, 6, 5, 8, 7, 9, 3, 2, 1],
         [7, 9, 8, 2, 1, 3, 6, 5, 4],
         [9, 2, 1, 4, 3, 5, 8, 7, 6],
@@ -212,7 +218,7 @@ This algorithm should check if the given grid of numbers represents a correct so
         [6, 8, 7, 1, 9, 2, 5, 4, 3],
         [5, 7, 6, 9, 8, 1, 4, 3, 2],
         [2, 4, 3, 6, 5, 7, 1, 9, 8],
-        [8, 1, 9, 3, 2, 4, 7, 6, 5]]`
+        [8, 1, 9, 3, 2, 4, 7, 6, 5]]
 the output should be
 `sudoku(grid) = true`;
 
