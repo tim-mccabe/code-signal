@@ -6,10 +6,10 @@ Determine if the given character is a digit or not.
 
 #### Example
 
-* For symbol = '0', the output should be
-  isDigit(symbol) = true;
-* For symbol = '-', the output should be
-  isDigit(symbol) = false.
+* For `symbol = '0'`, the output should be
+  `isDigit(symbol) = true`;
+* For `symbol = '-'`, the output should be
+  `isDigit(symbol) = false`.
 #### Input/Output
 
 * **[input] char symbol**
@@ -17,25 +17,25 @@ Determine if the given character is a digit or not.
 A character which is either a digit or not.
 
 Guaranteed constraints:
-Given symbol is from ASCII table.
+`Given symbol is from ASCII table`.
 
 * **[output] boolean**
 
-true if symbol is a digit, false otherwise.
+`true` if `symbol` is a digit, `false` otherwise.
 
 ## Line Encoding
 
 Given a string, return its encoding defined as follows:
 
 * First, the string is divided into the least possible number of disjoint substrings consisting of identical characters
-  for example, "aabbbc" is divided into ["aa", "bbb", "c"]
-* Next, each substring with length greater than one is replaced with a concatenation of its length and the repeating character
-  for example, substring "bbb" is replaced by "3b"
+  for example, `"aabbbc"` is divided into `["aa", "bbb", "c"]`
+* Next, each *substring* with length greater than one is replaced with a concatenation of its length and the repeating character
+  for example, *substring* `"bbb"` is replaced by `"3b"`
 * Finally, all the new strings are concatenated together in the same order and a new string is returned.
 #### Example
 
-For s = "aabbbc", the output should be
-lineEncoding(s) = "2a3bc".
+For `s = "aabbbc"`, the output should be
+`lineEncoding(s) = "2a3bc"`.
 
 #### Input/Output
 
@@ -48,7 +48,7 @@ Guaranteed constraints:
 
 * **[output] string**
 
-Encoded version of s.
+Encoded version of `s`.
 
 ## Chess Knight
 
@@ -60,13 +60,13 @@ The knight can move to a square that is two squares horizontally and one square 
 
 #### Example
 
-* For cell = "a1", the output should be
-  chessKnight(cell) = 2.
+* For `cell = "a1"`, the output should be
+  `chessKnight(cell) = 2`.
 
   ![chess_2](images/chess_2.jpg)
 
-* For cell = "c2", the output should be
-  chessKnight(cell) = 6.
+* For `cell = "c2"`, the output should be
+  `chessKnight(cell) = 6`.
 
   ![chess_3](images/chess_3.jpg)
 
@@ -74,10 +74,10 @@ The knight can move to a square that is two squares horizontally and one square 
 
 * **[input] string cell**
 
-String consisting of 2 letters - coordinates of the knight on an 8 × 8 chessboard in chess notation.
+String consisting of 2 letters - coordinates of the knight on an `8 × 8` chessboard in chess notation.
 
 Guaranteed constraints:
-cell.length = 2,
+`cell.length = 2`,
 'a' ≤ cell[0] ≤ 'h',
 1 ≤ cell[1] ≤ 8.
 
@@ -89,10 +89,10 @@ Given some integer, find the maximal number you can obtain by deleting exactly o
 
 #### Example
 
-* For n = 152, the output should be
-  deleteDigit(n) = 52;
-* For n = 1001, the output should be
-  deleteDigit(n) = 101.
+* For `n = 152`, the output should be
+  `deleteDigit(n) = 52`;
+* For `n = 1001`, the output should be
+  `deleteDigit(n) = 101`.
 #### Input/Output
 
 * **[input] integer n**

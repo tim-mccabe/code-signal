@@ -2,14 +2,14 @@
 
 ## Growing Plant
 
-Caring for a plant can be hard work, but since you tend to it regularly, you have a plant that grows consistently. Each day, its height increases by a fixed amount represented by the integer upSpeed. But due to lack of sunlight, the plant decreases in height every night, by an amount represented by downSpeed.
+Caring for a plant can be hard work, but since you tend to it regularly, you have a plant that grows consistently. Each day, its height increases by a fixed amount represented by the integer `upSpeed`. But due to lack of sunlight, the plant decreases in height every night, by an amount represented by `downSpeed`.
 
-Since you grew the plant from a seed, it started at height 0 initially. Given an integer desiredHeight, your task is to find how many days it'll take for the plant to reach this height.
+Since you grew the plant from a seed, it started at height `0` initially. Given an integer `desiredHeight`, your task is to find how many days it'll take for the plant to reach this height.
 
 #### Example
 
-For upSpeed = 100, downSpeed = 10, and desiredHeight = 910, the output should be
-growingPlant(upSpeed, downSpeed, desiredHeight) = 10.
+For `upSpeed = 100`, `downSpeed = 10`, and `desiredHeight = 910`, the output should be
+`growingPlant(upSpeed, downSpeed, desiredHeight) = 10`.
 
 | # | Day | Night |
 |---|---|---|
@@ -24,7 +24,7 @@ growingPlant(upSpeed, downSpeed, desiredHeight) = 10.
 | 9 | 820 | 810 |
 | 10 | 910 | 900 |
 
-The plant first reaches a height of 910 on day 10.
+The plant first reaches a height of `910` on day `10`.
 
 #### Input/Output
 
@@ -51,28 +51,28 @@ Guaranteed constraints:
 
 * **[output] integer**
 
-The number of days that it will take for the plant to reach / pass desiredHeight.
+The number of days that it will take for the plant to reach / pass `desiredHeight`.
 
 ## Knapsack Light
 
-You found two items in a treasure chest! The first item weighs weight1 and is worth value1, and the second item weighs weight2 and is worth value2. What is the total maximum value of the items you can take with you, assuming that your max weight capacity is maxW and you can't come back for the items later?
+You found two items in a treasure chest! The first item weighs `weight1` and is worth `value1`, and the second item weighs `weight2` and is worth `value2`. What is the total maximum value of the items you can take with you, assuming that your max weight capacity is maxW and you can't come back for the items later?
 
 **Note** that there are only two items and you can't bring more than one item of each type, i.e. you can't take two first items or two second items.
 
 #### Example
 
-* For value1 = 10, weight1 = 5, value2 = 6, weight2 = 4, and maxW = 8, the output should be
-  knapsackLight(value1, weight1, value2, weight2, maxW) = 10.
+* For `value1 = 10`, `weight1 = 5`, `value2 = 6`, `weight2 = 4`, and `maxW = 8`, the output should be
+  `knapsackLight(value1, weight1, value2, weight2, maxW) = 10`.
 
   You can only carry the first item.
 
-* For value1 = 10, weight1 = 5, value2 = 6, weight2 = 4, and maxW = 9, the output should be
-  knapsackLight(value1, weight1, value2, weight2, maxW) = 16.
+* For `value1 = 10`, `weight1 = 5`, `value2 = 6`, `weight2 = 4`, and `maxW = 9`, the output should be
+  `knapsackLight(value1, weight1, value2, weight2, maxW) = 16`.
 
   You're strong enough to take both of the items with you.
 
-* For value1 = 5, weight1 = 3, value2 = 7, weight2 = 4, and maxW = 6, the output should be
-  knapsackLight(value1, weight1, value2, weight2, maxW) = 7.
+* For `value1 = 5`, `weight1 = 3`, `value2 = 7`, `weight2 = 4`, and `maxW = 6`, the output should be
+  `knapsackLight(value1, weight1, value2, weight2, maxW) = 7`.
 
   You can't take both items, but you can take any of them.
 
@@ -111,10 +111,10 @@ Given a string, output its longest prefix which contains only digits.
 
 #### Example
 
-For inputString = "123aa1", the output should be
-longestDigitsPrefix(inputString) = "123".
+For `inputString = "123aa1"`, the output should be
+`longestDigitsPrefix(inputString) = "123"`.
 
-Input/Output
+#### Input/Output
 
 * **[input] string inputString**
 
@@ -131,14 +131,14 @@ Given an integer, find its digit degree.
 
 #### Example
 
-* For n = 5, the output should be
-  digitDegree(n) = 0;
-* For n = 100, the output should be
-  digitDegree(n) = 1.
-  1 + 0 + 0 = 1.
-* For n = 91, the output should be
-  digitDegree(n) = 2.
-  9 + 1 = 10 -> 1 + 0 = 1.
+* For `n = 5`, the output should be
+  `digitDegree(n) = 0`;
+* For `n = 100`, the output should be
+  `digitDegree(n) = 1`.
+  `1 + 0 + 0 = 1`.
+* For `n = 91`, the output should be
+  `digitDegree(n) = 2`.
+  `9 + 1 = 10 -> 1 + 0 = 1`.
 #### Input/Output
 
 * **[input] integer n**
@@ -150,20 +150,20 @@ Guaranteed constraints:
 
 ## Bishop and Pawn
 
-Given the positions of a white bishop and a black pawn on the standard chess board, determine whether the bishop can capture the pawn in one move.
+Given the positions of a white `bishop` and a black `pawn` on the standard chess board, determine whether the bishop can capture the pawn in one move.
 
 The bishop has no restrictions in distance for each move, but is limited to diagonal movement. Check out the example below to see how it can move:
 ![chess_1](images/chess_1.png)
 
 #### Example
 
-* For bishop = "a1" and pawn = "c3", the output should be
-  bishopAndPawn(bishop, pawn) = true.
+* For `bishop = "a1"` and `pawn = "c3"`, the output should be
+  `bishopAndPawn(bishop, pawn) = true`.
 
 ![chess_2](images/chess_2.png)
 
-* For bishop = "h1" and pawn = "h3", the output should be
-  bishopAndPawn(bishop, pawn) = false.
+* For `bishop = "h1"` and `pawn = "h3"`, the output should be
+  `bishopAndPawn(bishop, pawn) = false`.
 
 ![chess_3](images/chess_3.png)
 
@@ -189,4 +189,4 @@ The bishop has no restrictions in distance for each move, but is limited to diag
 
 * **[output] boolean**
 
-true if the bishop can capture the pawn, false otherwise.
+`true` if the bishop can capture the pawn, `false` otherwise.

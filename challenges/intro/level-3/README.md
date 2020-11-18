@@ -6,12 +6,10 @@ Given an array of strings, return another array containing all of its longest st
 
 #### Example
 
-For inputArray = ["aba", "aa", "ad", "vcd", "aba"], the output should be
-allLongestStrings(inputArray) = ["aba", "vcd", "aba"].
+For `inputArray = ["aba", "aa", "ad", "vcd", "aba"]`, the output should be
+`allLongestStrings(inputArray) = ["aba", "vcd", "aba"]`.
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] array.string inputArray**
 
@@ -23,7 +21,7 @@ allLongestStrings(inputArray) = ["aba", "vcd", "aba"].
 
 * **[output] array.string**
 
-  Array of the longest strings, stored in the same order as in the inputArray.
+  Array of the longest strings, stored in the same order as in the `inputArray`.
 
 ## Common Character Count
 
@@ -31,14 +29,12 @@ Given two strings, find the number of common characters between them.
 
 #### Example
 
-For s1 = "aabcc" and s2 = "adcaa", the output should be
-commonCharacterCount(s1, s2) = 3.
+For `s1 = "aabcc"` and `s2 = "adcaa"`, the output should be
+`commonCharacterCount(s1, s2) = 3`.
 
-Strings have 3 common characters - 2 "a"s and 1 "c".
+Strings have `3` common characters - `2` "a"s and `1` "c".
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] string s1**
 
@@ -60,17 +56,15 @@ Strings have 3 common characters - 2 "a"s and 1 "c".
 
 Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half.
 
-Given a ticket number n, determine if it's lucky or not.
+Given a ticket number `n`, determine if it's lucky or not.
 
 #### Example
 
-*  For n = 1230, the output should be
-  isLucky(n) = true;
-* For n = 239017, the output should be
-  isLucky(n) = false.
+*  For `n = 1230`, the output should be
+  `isLucky(n) = true`;
+* For `n = 239017`, the output should be
+  `isLucky(n) = false`.
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] integer n**
 
@@ -81,7 +75,7 @@ Given a ticket number n, determine if it's lucky or not.
 
 * **[output] boolean**
 
-  true if n is a lucky ticket number, false otherwise.
+  `true` if `n` is a lucky ticket number, `false` otherwise.
 
 ## Sort by Height
 
@@ -89,16 +83,14 @@ Some people are standing in a row in a park. There are trees between them which 
 
 #### Example
 
-For a = [-1, 150, 190, 170, -1, -1, 160, 180], the output should be
-sortByHeight(a) = [-1, 150, 160, 170, -1, -1, 180, 190].
+For `a = [-1, 150, 190, 170, -1, -1, 160, 180]`, the output should be
+`sortByHeight(a) = [-1, 150, 160, 170, -1, -1, 180, 190]`.
 
 #### Input/Output
 
-* **[execution time limit] 4 seconds (py3)**
-
 * **[input] array.integer a**
 
-  If a[i] = -1, then the ith position is occupied by a tree. Otherwise a[i] is the height of a person standing in the ith position.
+  If `a[i] = -1`, then the `ith` position is occupied by a tree. Otherwise `a[i]` is the height of a person standing in the `ith` position.
 
   Guaranteed constraints:
   1 ≤ a.length ≤ 1000,
@@ -106,36 +98,34 @@ sortByHeight(a) = [-1, 150, 160, 170, -1, -1, 180, 190].
 
 * **[output] array.integer**
 
-  Sorted array a with all the trees untouched.
+  Sorted array `a` with all the trees untouched.
 
 ## Reverse in Parentheses
 
 Write a function that reverses characters in (possibly nested) parentheses in the input string.
 
-Input strings will always be well-formed with matching ()s.
+Input strings will always be well-formed with matching `()`s.
 
 #### Example
 
-* For inputString = "(bar)", the output should be
-  reverseInParentheses(inputString) = "rab";
-* For inputString = "foo(bar)baz", the output should be
-  reverseInParentheses(inputString) = "foorabbaz";
-* For inputString = "foo(bar)baz(blim)", the output should be
-  reverseInParentheses(inputString) = "foorabbazmilb";
-* For inputString = "foo(bar(baz))blim", the output should be
-  reverseInParentheses(inputString) = "foobazrabblim".
-  Because "foo(bar(baz))blim" becomes "foo(barzab)blim" and then "foobazrabblim".
+* For `inputString = "(bar)"`, the output should be
+  `reverseInParentheses(inputString) = "rab"`;
+* For `inputString = "foo(bar)baz"`, the output should be
+  `reverseInParentheses(inputString) = "foorabbaz"`;
+* For `inputString = "foo(bar)baz(blim)"`, the output should be
+  `reverseInParentheses(inputString) = "foorabbazmilb"`;
+* For `inputString = "foo(bar(baz))blim"`, the output should be
+  `reverseInParentheses(inputString) = "foobazrabblim"`.
+  Because `"foo(bar(baz))blim"` becomes `"foo(barzab)blim"` and then `"foobazrabblim"`.
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] string inputString**
 
-  A string consisting of lowercase English letters and the characters ( and ). It is guaranteed that all parentheses in inputString form a regular bracket sequence.
+  A string consisting of lowercase English letters and the characters `(` and `)`. It is guaranteed that all parentheses in `inputString` form a regular bracket sequence.
 
   Guaranteed constraints:
   0 ≤ inputString.length ≤ 50.
 
 * **[output] string**
 
-  Return inputString, with all the characters that were in parentheses reversed.
+  Return `inputString`, with all the characters that were in parentheses reversed.

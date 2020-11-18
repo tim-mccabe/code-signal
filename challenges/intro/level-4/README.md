@@ -2,18 +2,16 @@
 
 ## Alternating Sums
 
-Several people are standing in a row and need to be divided into two teams. The first person goes into team 1, the second goes into team 2, the third goes into team 1 again, the fourth into team 2, and so on.
+Several people are standing in a row and need to be divided into two teams. The first person goes into *team 1*, the second goes into *team 2*, the third goes into *team 1* again, the fourth into *team 2*, and so on.
 
-You are given an array of positive integers - the weights of the people. Return an array of two integers, where the first element is the total weight of team 1, and the second element is the total weight of team 2 after the division is complete.
+You are given an array of positive integers - the weights of the people. Return an array of two integers, where the first element is the total weight of *team 1*, and the second element is the total weight of *team 2* after the division is complete.
 
 #### Example
 
-For a = [50, 60, 60, 45, 70], the output should be
-alternatingSums(a) = [180, 105].
+For `a = [50, 60, 60, 45, 70]`, the output should be
+`alternatingSums(a) = [180, 105]`.
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] array.integer a**
 
@@ -25,23 +23,21 @@ Guaranteed constraints:
 
 ## Add Border
 
-Given a rectangular matrix of characters, add a border of asterisks(*) to it.
+Given a rectangular matrix of characters, add a border of asterisks(`*`) to it.
 
 #### Example
 
 For
-
+`
 picture = ["abc",
-           "ded"]
+           "ded"]`
 the output should be
-
+`
 addBorder(picture) = ["*****",
                       "*abc*",
                       "*ded*",
-                      "*****"]
+                      "*****"]`
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] array.string picture**
 
@@ -53,34 +49,32 @@ Guaranteed constraints:
 
 * **[output] array.string**
 
-The same matrix of characters, framed with a border of asterisks of width 1.
+The same matrix of characters, framed with a border of asterisks of width `1`.
 
 ## Are Similar?
 
 Two arrays are called similar if one can be obtained from another by swapping at most one pair of elements in one of the arrays.
 
-Given two arrays a and b, check whether they are similar.
+Given two arrays `a` and `b`, check whether they are similar.
 
 #### Example
 
-* For a = [1, 2, 3] and b = [1, 2, 3], the output should be
-  areSimilar(a, b) = true.
+* For `a = [1, 2, 3]` and `b = [1, 2, 3]`, the output should be
+  `areSimilar(a, b) = true`.
 
   The arrays are equal, no need to swap any elements.
 
-* For a = [1, 2, 3] and b = [2, 1, 3], the output should be
-  areSimilar(a, b) = true.
+* For `a = [1, 2, 3]` and `b = [2, 1, 3]`, the output should be
+  `areSimilar(a, b) = true`.
 
-  We can obtain b from a by swapping 2 and 1 in b.
+  We can obtain `b` from `a` by swapping `2` and `1` in `b`.
 
-* For a = [1, 2, 2] and b = [2, 1, 1], the output should be
-  areSimilar(a, b) = false.
+* For `a = [1, 2, 2]` and `b = [2, 1, 1]`, the output should be
+  `areSimilar(a, b) = false`.
 
-  Any swap of any two elements either in a or in b won't make a and b equal.
+  Any swap of any two elements either in `a` or in `b` won't make `a` and `b` equal.
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] array.integer a**
 
@@ -92,15 +86,15 @@ Guaranteed constraints:
 
 * **[input] array.integer b**
 
-Array of integers of the same length as a.
+Array of integers of the same length as `a`.
 
 Guaranteed constraints:
-b.length = a.length,
+`b.length = a.length`,
 1 ≤ b[i] ≤ 1000.
 
 * **[output] boolean**
 
-true if a and b are similar, false otherwise.
+`true` if `a` and `b` are similar, `false` otherwise.
 
 ## Array Change
 
@@ -108,12 +102,10 @@ You are given an array of integers. On each move you are allowed to increase exa
 
 #### Example
 
-For inputArray = [1, 1, 1], the output should be
-arrayChange(inputArray) = 3.
+For `inputArray = [1, 1, 1]`, the output should be
+`arrayChange(inputArray) = 3`.
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] array.integer inputArray**
 
@@ -123,8 +115,8 @@ Guaranteed constraints:
 
 * **[output] integer**
 
-The minimal number of moves needed to obtain a strictly increasing sequence from inputArray.
-It's guaranteed that for the given test cases the answer always fits signed 32-bit integer type.
+The minimal number of moves needed to obtain a strictly increasing sequence from `inputArray`.
+It's guaranteed that for the given test cases the answer always fits signed `32`-bit integer type.
 
 ##  Palindrome Rearranging
 
@@ -132,14 +124,12 @@ Given a string, find out if its characters can be rearranged to form a palindrom
 
 #### Example
 
-For inputString = "aabb", the output should be
-palindromeRearranging(inputString) = true.
+For `inputString = "aabb"`, the output should be
+`palindromeRearranging(inputString) = true`.
 
-We can rearrange "aabb" to make "abba", which is a palindrome.
+We can rearrange `"aabb"` to make `"abba"`, which is a palindrome.
 
 #### Input/Output
-
-* **[execution time limit] 4 seconds (py3)**
 
 * **[input] string inputString**
 
@@ -150,4 +140,4 @@ Guaranteed constraints:
 
 * **[output] boolean**
 
-true if the characters of the inputString can be rearranged to form a palindrome, false otherwise.
+`true` if the characters of the `inputString` can be rearranged to form a palindrome, `false` otherwise.
