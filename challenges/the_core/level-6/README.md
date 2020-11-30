@@ -262,7 +262,8 @@ For `words = ["crossword", "square", "formation", "something"]`, the output shou
 
 The six crosswords can be formed as shown below:
 
-```  f                         f                             f
+```
+  f                         f                             f
   o                     c r o s s w o r d     c r o s s w o r d
 c r o s s w o r d           r   o                   q     r
   m   q                     m   m                   u     m
