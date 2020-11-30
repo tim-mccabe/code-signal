@@ -22,7 +22,9 @@ For the following table **Projects**
 | 1384        | MapReduce    | 100       | Jeffrey Dean | 0      |
 | 2855        | Windows      | 1000      | Bill Gates   | 100500 |
 | 5961        | Snapchat     | 3         | Evan Spiegel | 2000   |
+
 the resulting table should be
+
 | project_name |   team_lead  | income |
 |:------------:|:------------:|:------:|
 | MapReduce    | Jeffrey Dean | 0      |
