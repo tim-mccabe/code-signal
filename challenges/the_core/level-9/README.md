@@ -184,7 +184,7 @@ The same matrix of characters, framed with a border of asterisks of width `1`.
 
   Check out the image below for better understanding:
 
-![candels](images/candel.png)
+![candle](images/candle.png)
 
 * For `a = [0, 0]`, the output should be
   `switchLights(a) = [0, 0]`.
