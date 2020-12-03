@@ -76,3 +76,29 @@ Guaranteed constraints:
 * **[output] array.integer**
 
 Every possible number of people that can be in the house.
+
+## Alphabet Subsequence
+
+Check whether the given string is a subsequence of the plaintext alphabet.
+
+#### Example
+
+* For `s = "effg"`, the output should be
+  `alphabetSubsequence(s) = false`;
+* For `s = "cdce"`, the output should be
+  `alphabetSubsequence(s) = false`;
+* For `s = "ace"`, the output should be
+  `alphabetSubsequence(s) = true`;
+* For `s = "bxz"`, the output should be
+  `alphabetSubsequence(s) = true`.
+
+#### Input/Output
+
+* **[input] string s**
+
+Guaranteed constraints:
+2 ≤ s.length ≤ 15.
+
+* **[output] boolean**
+
+`true` if the given string is a *subsequence* of the alphabet, `false` otherwise.
