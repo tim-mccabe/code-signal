@@ -110,3 +110,74 @@ companies.length = 3,
 * **[output] array.char**
 
 Array of characters that are `popular` but not `mainstream`.
+
+## Word Recognition
+
+You are working on an AI that can recognize words. To begin with, you'd like to try the following approach: for the given pair of words the AI should find two strings of sorted letters that uniquely identify these words.
+
+Given words `word1` and `word2`, return an array of two strings sorted lexicographically, where the first string contains characters present only in `word1`, and the second string contains characters present only in `word2`.
+
+Example
+
+For `word1 = "program"` and `word2 = "develop"`,
+the output should be
+`solution(word1, word2) = ["agmr", "delv"]`.
+
+Letters `'o'` and `'p'` are present in both words, and other letters identify them uniquely.
+
+#### Input/Output
+
+* **[input] string word1**
+
+The first word consisting of lowercase English letters.
+
+Guaranteed constraints:
+1 ≤ word1.length ≤ 20.
+
+* **[input] string word2**
+
+The second word consisting of lowercase English letters.
+
+Guaranteed constraints:
+1 ≤ word2.length ≤ 20.
+
+* **[output] array.string**
+
+Array of two strings sorted lexicographically, where the first string uniquely identifies the first word, and the second string uniquely identifies the second word.
+
+## Transpose Dictionary
+
+You're implementing a plugin for your favorite code editor. This plugin launches various scripts depending on the open file extension. Each script is associated with exactly one extension, and the information about which script should be launched for each extension is stored in a dictionary `scriptByExtension`.
+
+You are planning to add more supported extensions for some scripts, so now you would also like to store information about the extensions which each script supports. As a starting point, you'd like to obtain the `(extension, script)` pairs from the dictionary, sorted lexicographically by the *extensions*.
+
+Implement a function that will do the job.
+
+#### Example
+
+For
+```
+scriptByExtension = {
+  "validate": "py",
+  "getLimits": "md",
+  "generateOutputs": "json"
+}
+```
+the output should be
+```
+solution(scriptByExtension) = [["json", "generateOutputs"], 
+                                          ["md", "getLimits"], 
+                                          ["py", "validate"]]
+```
+#### Input/Output
+
+**[input] dictionary scriptByExtension**
+
+The initial dictionary. Both keys and values of the dictionary are guaranteed to be strings that contain only English letters. It is also guaranteed that all dictionary values are unique.
+
+Guaranteed constraints:
+0 ≤ scriptByExtension.length ≤ 10.
+
+**[output] array.array.string**
+
+Array of pairs `[extension, script]`, sorted *lexicographically* by the `extension`.
